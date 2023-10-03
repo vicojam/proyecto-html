@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase demo HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+    
+        header {
+            text-align: center;
+        }
+    
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+    
+        li {
+            float: left;
+        }
+    
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+    
+        .active {
+            background-color: #92a4ff;
+        }
+    
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+            text-align: center;
+        }
+    
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+    
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 3%;
+            height: auto;
+        }
+    
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 6%;
+            height: auto;
+        }
+        .image3 {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 6%;
+            height: auto;
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+    
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Las aventuras de Dony</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="margin: 15px;">Dony el gato valiente</h2>
+    <hr>
+    <article class="container">
+        <h3>la vida de Dony</h3>
+        <img class="image" src="assets/img/cat-1940487_1920.jpg" alt="Donny">
+        <p>Dony era un gato muy mimado que vivía en una casa grande y lujosa con su dueña, una señora mayor que le adoraba. Dony tenía todo lo que podía desear: comida, juguetes, camas, rascadores y mucho cariño. Sin embargo, Dony se aburría mucho en la casa y sentía curiosidad por el mundo exterior. Un día, aprovechó que la señora salió a hacer unas compras y se escapó por la ventana. Se encontró con un mundo muy diferente al que conocía: coches, ruidos, gente, perros y otros gatos. Al principio, le pareció muy divertido y se puso a explorar todo lo que veía</p>
+        <img class="image2" src="assets/img/cat-300572_1280.jpg" alt="Donny">
+        <p>Pero pronto se dio cuenta de que no todo era tan bonito como pensaba. Se metió en problemas con unos gatos callejeros que le persiguieron y le arañaron. Se perdió entre las calles y no supo cómo volver a su casa. Se asustó con los ruidos y los coches que pasaban cerca de él. Se sintió solo y triste, sin nadie que le cuidara. Entonces, se acordó de su dueña y de lo mucho que le quería. Se arrepintió de haberse escapado y deseó volver a su hogar. Por suerte, un niño que pasaba por allí lo vio y lo reconoció por el collar que llevaba. El niño sabía dónde vivía la señora y decidió llevarlo de vuelta a su casa. Dony se alegró mucho de ver al niño y le agradeció con un ronroneo.</p>
+        <img class="image3" src="assets/img/cat-323262_1280.jpg" alt="Donny">
+        <p>El niño lo llevó en brazos hasta la casa de la señora y tocó el timbre. La señora abrió la puerta y se sorprendió al ver a su gato. Se puso muy contenta y le dio un abrazo al niño y a Dony. Le dio las gracias al niño por haberle devuelto a su gato y le invitó a pasar a tomar algo. El niño aceptó y entró en la casa con Dony. Dony se sintió muy feliz de haber vuelto a su hogar y de haber conocido a un nuevo amigo. Desde entonces, Dony nunca más quiso escaparse de su casa y aprendió a valorar lo que tenía.</p>
+    </article>
+    <footer class="footer">
+        <p> Reservados todos los derechos &copy; 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase demo HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Las aventuras de Donny</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="centrado">
+        <video src="/assets/video/cat_-_2879 (540p).mp4" autoplay muted ></video>
+    </div>
+    <div class="centrado">
+        <audio src="/assets/audio/sunshine-108600.mp3" autoplay controls></audio>
+    </div>    
+    
+    <section class="centrado">
+        <div class="gallery">
+            <a href="/assets/img/cat-300572_1280.jpg" target="_blank"><img src="/assets/img/cat-300572_1280.jpg" alt="Dony1" width="600"></a>
+            <div>Donny 1</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/cat-323262_1280.jp" target="_blank"><img src="/assets/img/cat-323262_1280.jpg" alt="Dony2" width="600"></a>            
+            <div>Donny 2</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/cat-4189697_1280.jpg" target="_blank"><img src="/assets/img/cat-4189697_1280.jpg" alt="Dony3" width="600"></a>            
+            <div class="desc">Donny 3</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/cat-5098930_1920.jpg" target="_blank"><img src="/assets/img/cat-5098930_1920.jpg" alt="Donny4" width="600"></a>            
+            <div class="desc">Donny 4</div>
+        </div>
+            <a href="/assets/img/cat-5098930_1920.jpg" target="_blank"><img src="/assets/img/cat-5098930_1920.jpg" alt="Donny4" width="600"></a>            
+            <div class="desc">Donny 5</div>
+    </section>
+    
+    <footer class="footer">
+        <p> Reservados todos los derechos &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
